@@ -1,0 +1,256 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+    margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;padding: 0;
+}
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to right, #dd2476 , #ff512f );
+    --light-gray: #eee;
+  }
+  header{
+    background: var(--bggradient);
+    width: 100%;
+  }
+  .logo a{
+    color: #eee;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  .nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-link a{
+    color: #eee;
+    text-decoration: none;
+    font-size:medium;
+    transition: 0.2s;
+  }
+  .nav-link a:hover{
+    color: #000;
+  }
+  .hamburger-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #eee;
+   text-align: end;
+  
+  }
+ 
+header .row .col-md-5 {
+    padding: 4rem 1rem;
+  }
+  header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik);
+    color: white;
+  }
+  header .row .col-md-5 img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
+  }
+  header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+  }
+  header .container .col-md-7 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+  }
+  header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+  }
+  header .container .col-md-7 button {
+    border-radius: 30px;
+    font-weight: bold;
+  }
+  .head button{
+    border: none;
+    border-radius: 15px;
+  }
+  .head button:hover{
+    background-color: #000;
+    color: white;
+  }
+/*  */
+.image img{
+    height: 650px;
+}
+.panel{
+    height: 500px;
+    width: 700px ;
+    top: 120px;
+    position: relative;
+    right: 140px;
+    background: white;
+    border-radius: 3px;
+    border: 2px solid #dd2476;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+.cover{
+    background:url(assets/pexels-wildlittlethingsphoto-708392.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin-top:100px;
+}
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+    color: #eee;
+  }
+  .cover .content h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+  }
+  .cover .content p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: #e5e5e5;
+  }
+  .small-box{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    bottom: 80px;
+    background: white;
+    width: 16rem;
+    height: 11rem;
+    padding-top: 30px;
+    margin: 1vmin;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+  }
+  .small-box h1{
+    font-size: 3.5rem;
+    color: tomato;
+  }
+  .small-box p {
+    font-family: var(--Patua);
+  }
+  /*  */
+  .card{
+    text-align: center;
+    background: rgb(190, 255, 255, 0.1);
+    
+  }
+  .title {
+    background: rgba(149, 222, 222, 0.1);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+  }
+  .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+  }
+  .pricing h1{
+    font-size: 60px;
+  }
+  .section-3{
+    background: var(--bggradient);
+    height: 70vmin;
+    padding-top: 80px;
+    color: #eee;
+  }
+  .text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .platform1{
+    border-radius: 40px;
+    background-color: #eee;
+    width: 18%;
+    color: #000;
+    height: 80px;
+  }
+  .platform2{
+    border-radius: 40px;
+    background-color: #eee;
+    width: 18%;
+    color: #000;
+    height: 80px;
+  }
+  /*  */
+  .section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+    }
+    .section-4 .team{
+        padding: 10vmin 4vmin;
+    }
+    .section-4 .card{
+        width: 22rem;
+        margin-top: 10vmin;
+    
+    }
+    .section-4 .card .card-text{
+        padding: 0.5em;
+    }
+    .section-4 .card .card-body>a{
+        font-size: 1.5em;
+    }
+    .section-4 .carousel-item{
+        padding-left: 3rem;
+    }
+    .border-radius{
+        border-radius: 50%;
+        width: 60%;
+    }
+/*  */
+footer{
+    background:rgb(0,0,0,0.815) ;
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p span{
+    color: #ff512f;
+}
+footer input{
+    border: none !important;
+
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+}
+footer .column i{
+    color:#ff512f;
+}
+footer .column i{
+    padding: 0 0.5em;
+}
+
+
+    

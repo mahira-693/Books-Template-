@@ -1,0 +1,37 @@
+@media (max-width: 1024px) {
+    .nav-link {
+      display: none;
+    }
+    
+    .hamburger-icon {
+      display: block;
+      text-align: right;
+    }
+  }
+  @media (max-width: 768px){
+    .hamburger-icon {
+        display: block;
+        text-align: end;
+      }
+        .row {
+          flex-direction: column;
+        }
+        
+        .col-lg-6 {
+          width: 100%;
+        }
+        
+        .image img {
+          height: auto;
+          width: 100%;
+        }
+        
+        .panel {
+         position: relative;
+         left: 3px;
+        top: -100px;
+        }
+        
+      }
+      
+  
